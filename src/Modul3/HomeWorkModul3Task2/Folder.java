@@ -7,4 +7,10 @@ import java.util.List;
  */
 public class Folder {
     List<File> files;
+
+    public void addFile(){
+        return;
+    }
+
+
 }
