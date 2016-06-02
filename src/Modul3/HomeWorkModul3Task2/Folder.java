@@ -9,7 +9,7 @@ public class Folder {
     List<File> files;
 
     public void addFile(){
-        return;
+
     }
 
 

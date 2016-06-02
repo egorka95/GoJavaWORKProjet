@@ -7,4 +7,7 @@ import java.util.List;
  */
 public class Bouqet {
     List<Flower> flowers;
+    String name;
+    String type;
+    int size;
 }

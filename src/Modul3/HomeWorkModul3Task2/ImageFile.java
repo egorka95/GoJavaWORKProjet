@@ -7,6 +7,5 @@ public class ImageFile extends File {
     int height;
 
     public void Draw(){
-        return ;
     }
 }

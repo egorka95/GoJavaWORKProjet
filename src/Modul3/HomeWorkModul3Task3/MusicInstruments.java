@@ -6,8 +6,10 @@ import java.util.List;
  * Created by nikitarozhkov on 30.05.16.
  */
 public class MusicInstruments {
-    public List<Guitar> guitars;
-    public List<Piano> pianos;
-    public List<Trumpet> trumpets;
+    String name;
+    String type;
+    int price;
+    String play;
+
 
 }
