@@ -7,6 +7,9 @@ import java.util.List;
  */
 public class RoseBush extends Rose {
     List<Rose> roses;
-    String color;
-    int size;
+
+    public RoseBush(String color, int size, List<Rose> roses) {
+        super(color, size);
+        this.roses = roses;
+    }
 }

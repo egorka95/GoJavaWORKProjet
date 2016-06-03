@@ -6,10 +6,19 @@ package Modul4.Task1;
 public class Circle implements Figure {
 
 
-    public double x;
+    private double x;
+
+    public double getX() {
+        return x;
+    }
+
+    public void setX(double x) {
+        this.x = x;
+    }
 
     public  Circle(double x){
         this.x=x;
+
 
     }
 
