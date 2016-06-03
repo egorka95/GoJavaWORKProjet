@@ -8,13 +8,13 @@ public class Main {
 
     public static void main(String[] args) {
         Figure rectangle = new Rectangle(3,4);
-        System.out.println(rectangle.sum());
+        System.out.println(rectangle.area());
 
         Figure circle = new Circle(4);
-        System.out.println(circle.sum());
+        System.out.println(circle.area());
 
         Figure traingle = new Traingle(3,4);
-        System.out.println(traingle.sum());
+        System.out.println(traingle.area());
 
     }
 }

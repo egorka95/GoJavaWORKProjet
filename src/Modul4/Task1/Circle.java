@@ -14,7 +14,7 @@ public class Circle implements Figure {
     }
 
     @Override
-    public double sum() {
+    public double area() {
         return 3.14 * (this.x * this.x);
     }
 }

@@ -7,7 +7,7 @@ package Modul4.Task1;
  */
 public interface Figure {
 
-    public double sum();
+    public double area();
 
 
 }

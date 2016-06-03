@@ -14,7 +14,7 @@ public class Traingle implements Figure {
     }
 
     @Override
-    public double sum() {
+    public double area() {
         return (0.5 * x) * y;
     }
 }

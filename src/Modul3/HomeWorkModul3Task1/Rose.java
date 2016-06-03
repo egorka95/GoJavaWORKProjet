@@ -7,6 +7,7 @@ import java.util.List;
  */
 public class Rose extends Flower {
 
-    String color;
-    int size;
+    public Rose(String color, int size) {
+        super(color, size);
+    }
 }

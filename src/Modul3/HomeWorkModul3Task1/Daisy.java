@@ -4,6 +4,8 @@ package Modul3.HomeWorkModul3Task1;
  * Created by nikitarozhkov on 30.05.16.
  */
 public class Daisy extends Flower {
-    String color;
-    int size;
+
+    public Daisy(String color, int size) {
+        super(color, size);
+    }
 }

@@ -17,7 +17,7 @@ package Modul4.Task1;
     }
 
     @Override
-    public double sum() {
+    public double area() {
         return x * y;
     }
 }

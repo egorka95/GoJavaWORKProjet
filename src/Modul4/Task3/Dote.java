@@ -5,9 +5,30 @@ package Modul4.Task3;
  */
 public class Dote {
 
-        public double plus(double x1, double x2, double y2, double y1) {
+    private int x;
+    private int y;
 
-            return ((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
+    public  Dote(int x, int y) {
 
-        }
+        this.x = x;
+        this.y = y;
+
+
+    }
+
+    public int getX() {
+        return x;
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+    public void setY(int y) {
+        this.y = y;
+    }
 }
