@@ -33,8 +33,8 @@ public class Dote {
         this.y = y;
     }
 
-    public static double calculator(Dote dote1, Dote dote2) {
-        return Math.sqrt(Math.pow((dote1.getX() - dote2.getX()), 2) + Math.pow((dote1.getY() - dote2.getY()), 2));
+    public double calculator( Dote dote2) {
+        return Math.sqrt(Math.pow((this.x - dote2.getX()), 2) + Math.pow((this.y - dote2.getY()), 2));
     }
 
 
