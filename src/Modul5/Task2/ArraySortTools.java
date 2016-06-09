@@ -6,23 +6,25 @@ package Modul5.Task2;
  * Created by nikitarozhkov on 08.06.16.
  */
 public class ArraySortTools {
-    private int[] mas;
+
 
 
     public static int[] bubbleSort(int[] mas) {
 
         int[] resMas = mas;
-
-        for (int i = 1; i < resMas.length; i++) {
-            for (int j = resMas.length; j >= i; j--) {
-                if (resMas[j - 1] > resMas[j]) {
-                    int temp = resMas[j - 1];
-                    mas[j - 1] = resMas[j];
-                    resMas[j] = temp;
+        for (int i = 0; i < resMas.length - 1; i++)
+        {
+            for (int j = 0; j < resMas.length - 1; j++)
+            {
+                if (resMas[j] > resMas[j + 1])
+                {
+                    int temp = resMas[j];
+                    resMas[j] = resMas[j + 1];
+                    resMas [j + 1] = temp;
                 }
             }
-        }
 
+        }
         return resMas;
     }
 
