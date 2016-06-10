@@ -32,6 +32,7 @@ package Modul4.Task1;
 
     @Override
     public double area() {
+        if(x < 0 || y < 0) throw new IllegalArgumentException();
         return x * y;
     }
 }

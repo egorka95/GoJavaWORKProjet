@@ -31,6 +31,7 @@ public class Traingle implements Figure {
 
     @Override
     public double area() {
+        if (x < 0 || y < 0) throw new IllegalArgumentException();
         return (0.5 * x) * y;
     }
 }

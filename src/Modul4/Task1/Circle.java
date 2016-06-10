@@ -24,6 +24,7 @@ public class Circle implements Figure {
 
     @Override
     public double area() {
+        if (x < 0 )throw new  IllegalArgumentException();
         return 3.14 * (this.x * this.x);
     }
 }
