@@ -12,12 +12,19 @@ public class Main {
         int []mas = new int[10];
         for( int i = 0; i < mas.length; i++){
             mas[i] = (int) Math.round( Math.random()*100);
-            out.print(mas[i] + " ");
+            out.print(mas[i] + " ");}
+        System.out.println(" ");
+
+        int[] sortedTools = ArraySortTools.bubbleSort(mas);
+        for (int i = 0; i < sortedTools.length; i++)
+        {
+            System.out.print(sortedTools[i] + " ");
         }
 
 
-        out.println(ArraySortTools.minElement(mas));
-        out.println(ArraySortTools.maxElement(mas));
-        System.out.println(ArraySortTools.bubbleSort(mas));
+        System.out.println(" ");
+        System.out.println(ArraySortTools.minElement(mas));
+        System.out.println(ArraySortTools.maxElement(mas));
     }
+
 }
