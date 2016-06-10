@@ -8,24 +8,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Figure rectangle = new Rectangle(-3,4);
-        try {System.out.println(rectangle.area());}
-        catch (IllegalArgumentException e){
-            System.out.println("Числа не должны быть отрицательными");
-        }
+        Figure rectangle = new Rectangle(3,4);
+        System.out.println(rectangle.area());
 
-        Figure circle = new Circle(-182);
-        try{
-        System.out.println(circle.area());}
-        catch (IllegalArgumentException e){
-            System.out.println("Число не должно быть отрицательным");
-        }
+        Figure circle = new Circle(4);
+        System.out.println(circle.area());
 
         Figure traingle = new Traingle(3,4);
-        try {
-            System.out.println(traingle.area());
-        }catch (IllegalArgumentException e){
-            System.out.println("Числа не должны быть отрицательными");
-        }
+        System.out.println(traingle.area());
+
     }
 }

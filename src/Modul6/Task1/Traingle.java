@@ -1,13 +1,12 @@
-package Modul4.Task1;
+package Modul6.Task1;
 
 /**
  * Created by nikitarozhkov on 01.06.16.
  */
- class Rectangle implements Figure {
+public class Traingle implements Figure {
 
     private double x;
     private double y;
-
 
     public double getX() {
         return x;
@@ -25,13 +24,14 @@ package Modul4.Task1;
         this.y = y;
     }
 
-    public Rectangle(double x, double y) {
+    public Traingle(double x, double y){
         this.x = x;
         this.y = y;
     }
 
     @Override
     public double area() {
-        return x * y;
+        if (x < 0 || y < 0) throw new IllegalArgumentException();
+        return (0.5 * x) * y;
     }
 }
