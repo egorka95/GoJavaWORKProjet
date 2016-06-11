@@ -1,4 +1,4 @@
-package Modul6.Task1.Task3;
+package Modul6.Task3;
 
 /**
  * Created by nikitarozhkov on 01.06.16.
@@ -22,7 +22,7 @@ public class Dote {
         try {
             return Integer.parseInt(null);
         }catch (NullPointerException e){
-            System.out.println("Нельзя использывать пересенную'null'");
+            System.out.println("Нельзя использывать переменную'null'");
         }return x;
     }
 

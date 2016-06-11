@@ -1,4 +1,4 @@
-package Modul6.Task1.Task4;
+package Modul6.Task4;
 
 import static java.lang.System.out;
 

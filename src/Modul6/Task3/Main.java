@@ -1,4 +1,4 @@
-package Modul6.Task1.Task3;
+package Modul6.Task3;
 
 public class Main {
 
