@@ -41,7 +41,7 @@ public class MusicStore {
             result.add(new Guitar());
         }
         for (int i = 0;i < cntTrumpet;i++){
-            result.add(new Trumpet());
+            result.add(new Trumpet()    );
         }
         musicInstrumentses.put(MusicInstruments.PIANO, cntPianoInShop - cntPiano);
         musicInstrumentses.put(MusicInstruments.TRUMPET, cntTrumpetInShop - cntTrumpet);

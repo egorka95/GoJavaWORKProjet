@@ -28,7 +28,7 @@ public class ArraySortTools {
         return resMas;
     }
 
-    public static int minElement(int[] mas) {
+    public static int minElement(int[] mas) throws ArrayIndexOutOfBoundsException {
         int min = mas[0];
 
         for (int i = 0; i < mas.length; i++) {
@@ -41,8 +41,9 @@ public class ArraySortTools {
 
     }
 
-    public static int maxElement(int[] mas) {
+    public static int maxElement(int[] mas) throws  ArrayIndexOutOfBoundsException {
         int max = mas[0];
+        
 
         for (int i = 0; i < mas.length; i++) {
             if (mas[i] > max) {

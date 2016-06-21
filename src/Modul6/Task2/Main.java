@@ -6,15 +6,11 @@ package Modul6.Task2;
 public class Main {
     public static void main(String[] args) {
 
-        Temperature calc1 = null;
+
         Temperature calc = new Temperature();
         System.out.println(calc.Celsius(20));
         System.out.println(calc.F(-1000));
-       try {
-           System.out.println(calc1.Celsius(20));
-       }catch (NullPointerException e){
-           System.out.println("Не правильное использование метода, calc1 = " + calc1);
-       }
+
     }
     }
 
