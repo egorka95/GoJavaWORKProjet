@@ -6,6 +6,10 @@ package Modul3.HomeWorkModul3Task2;
 public class SoundFile extends File {
     int duration;
 
+    /*
+    Тут должна быть только хорошая музыка.
+     */
+
     public String playMusic(String x){
 
         x = "Играй гармонь";

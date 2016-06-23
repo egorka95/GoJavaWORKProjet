@@ -8,6 +8,12 @@ public class Main {
 
     public static void main(String[] args) {
 
+        /*
+
+        Magic Numbers && Hard code.
+
+         */
+
         Figure rectangle = new Rectangle(3,4);
         System.out.println(rectangle.area());
 

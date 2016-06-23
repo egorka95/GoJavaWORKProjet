@@ -8,6 +8,9 @@ import java.util.List;
 public class Folder {
     List<File> files;
 
+    /*
+    Надо добавить место нахождение папки.
+     */
     public void addFile(){
 
     }

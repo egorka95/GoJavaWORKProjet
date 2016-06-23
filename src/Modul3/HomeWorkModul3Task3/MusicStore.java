@@ -7,6 +7,10 @@ import java.util.List;
  */
 public class MusicStore {
 
+    /*
+    Надо добавит переменную количество м2 в магазине.
+     */
+
     String adress;
     int area;
     List<MusicInstruments> musicInstrumentses;

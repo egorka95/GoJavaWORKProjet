@@ -5,6 +5,10 @@ package Modul3.HomeWorkModul3Task1;
  */
 public class Daisy extends Flower {
 
+    /*
+   Тут можно давить еще состояние цветка.
+    */
+
     public Daisy(String color, int size) {
         super(color, size);
     }

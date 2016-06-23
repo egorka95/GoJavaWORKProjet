@@ -3,6 +3,13 @@ package Modul6.Task3;
 public class Main {
 
     public static void main(String[] args) {
+
+        /*
+
+        Magic Numbers && Hard code.
+
+         */
+
         Dote dote1 = new Dote(2,3);
         Dote dote2 = new Dote(4, 4);
         try {

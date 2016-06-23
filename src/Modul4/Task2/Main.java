@@ -6,6 +6,11 @@ package Modul4.Task2;
 public class Main {
     public static void main(String[] args) {
 
+        /*
+
+        Magic Numbers && Hard code.
+
+         */
 
         Temperature calc = new Temperature();
         System.out.println(calc.Celsius(20));

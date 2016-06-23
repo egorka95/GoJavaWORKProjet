@@ -6,6 +6,11 @@ import java.util.List;
  * Created by nikitarozhkov on 30.05.16.
  */
 public class MusicInstruments {
+
+    /*
+    Тут может быть ваша реклама.
+     */
+
     private String name;
     private String type;
     private int price;

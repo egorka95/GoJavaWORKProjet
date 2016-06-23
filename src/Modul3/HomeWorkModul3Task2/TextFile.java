@@ -6,6 +6,10 @@ package Modul3.HomeWorkModul3Task2;
 public class TextFile extends File {
     String Text;
 
+    /*
+    Только интересное чтиво.
+     */
+
     public String getText() {
         return Text;
     }

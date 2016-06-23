@@ -10,6 +10,13 @@ public class Runner {
     public static void main(String[] args) {
         //создаем магазин
         MusicStore store = new MusicStore();
+
+       /*
+
+       Magic Numbers.
+
+        */
+
         //создаем асортимент
         Map<String, Integer> instrumentses = new HashMap<>();
         instrumentses.put(MusicInstruments.PIANO,2);
@@ -19,6 +26,12 @@ public class Runner {
         //instrumentses.add(new Guitar());
         // instrumentses.add(new Trumpet());
         store.setMusicInstrumentses(instrumentses);
+
+        /*
+
+       Magic Numbers.
+
+        */
 
         //инициализируем магазин
         store.setMusicInstrumentses(instrumentses);

@@ -7,6 +7,13 @@ import static java.lang.System.out;
  */
 public class Main {
     public static void main(String[] args) {
+
+        /*
+
+        Magic Numbers && Hard code.
+
+         */
+
         // я решил сделать масив который сам генерирует числа
         // я думаю так интересней
         int []mas = new int[10];
