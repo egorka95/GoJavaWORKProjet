@@ -10,6 +10,6 @@ public class Tulpan extends Flower {
     */
 
     public Tulpan(String color, int size) {
-        super(color, size);
+        super(color);
     }
 }

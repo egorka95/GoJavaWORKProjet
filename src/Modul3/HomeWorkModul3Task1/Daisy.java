@@ -10,6 +10,6 @@ public class Daisy extends Flower {
     */
 
     public Daisy(String color, int size) {
-        super(color, size);
+        super(color);
     }
 }
