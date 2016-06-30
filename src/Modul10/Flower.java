@@ -40,18 +40,33 @@ public class Flower {
             System.out.println(bouqet1);
         }
 
-        EnglishCesar englishCesar = new EnglishCesar();
+
+         EnglishCesar englishCesar = new EnglishCesar();{
+
+        try
+        {
+            System.out.println("Шифр Цезаря");
+
+            String oriTxt,encTxt,decTxt;
+            System.out.println("Please enter the word to cipher:");
 
 
-        String encryptBouqet = englishCesar.encrypt(flower1,2,2);
+            encTxt=englishCesar.encrypt(String.valueOf(flower1));
+            System.out.println("Encoded :"+encTxt);
+            decTxt=englishCesar.decrypt(encTxt);
+            System.out.println("Decrypted :"+decTxt);
+        }
+        catch(Exception e)
+        {
+            System.out.println(e.toString());
+        }
+    }
 
-        System.out.println(encryptBouqet);
 
-       /* String desBouqet = englishCesar.decrypt(encryptBouqet, 2, 2);
 
-        System.out.println(desBouqet);
 
-*/
+
+
         DataInputStream inputStream = null;
 
         try {
