@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * Created by nikitarozhkov on 30.05.16.
  */
-public class Folder {
+public class Folder extends File {
     List<File> files;
 
     /*

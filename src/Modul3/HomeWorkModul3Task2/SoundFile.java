@@ -6,7 +6,14 @@ package Modul3.HomeWorkModul3Task2;
 public class SoundFile extends File {
     int duration;
 
-    /*
+    public int getDuration() {
+        return duration;
+    }
+
+    public void setDuration(int duration) {
+        this.duration = duration;
+    }
+/*
     Тут должна быть только хорошая музыка.
      */
 
